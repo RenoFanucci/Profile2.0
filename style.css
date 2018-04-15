@@ -1,0 +1,84 @@
+.bodyPic {
+	
+	background-image: url("https://res.cloudinary.com/dqpe07gze/image/upload/v1523622618/R15001_image1.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.bodyPic2 {
+	
+	background-image: url("https://res.cloudinary.com/dqpe07gze/image/upload/v1523627800/sand-texture-2.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+
+  
+.menuStyle {
+	font-family: 'Cinzel', serif;
+	background-color: rgba(245, 245, 245, 0.4);
+	color: #000;
+	filter: brightness(100%);
+}
+  
+h1 {
+	font-size: 60px;
+	font-style: italic;
+	color: #000;
+	font-family: 'Cinzel', serif;
+	filter: brightness(300%);
+}
+
+h2, h3, p {
+	color:#000;
+	font-family: 'Cinzel', serif;
+	filter: brightness(300%);
+}
+
+.well {
+	
+   background-color: rgba(245, 245, 245, 0.4);
+   font-family: 'Cinzel', serif;
+   font-size: 20px;
+   font-weight: 900;
+   font-style: italic;
+}
+
+.img1-size {
+  height: 150px;
+  max-width: 100%;
+  padding: 1px;
+  border: 1px solid #ffffff;
+}
+  
+.img3-size {
+	
+  max-height: 277px;	
+  max-width: 100%;
+  padding: 1px;
+  border: 1px solid #ffffff;
+}
+
+.img4-size {
+  height: 30px;
+  width: 30px;
+  text-color: #ffffff;
+  padding: 1px;
+  border: 1px solid #ffffff;
+  filter: brightness(25%);
+}
+
+.quoteStyle {
+	
+	color: #000;
+}
+
+@media screen and (max-width:768px){
+  h1{
+    font-size:3em;
+	color: #000;
+	font-style: italic;
+	font-family: 'Cinzel', serif;
+	filter: brightness(300%);
+  }
+}
